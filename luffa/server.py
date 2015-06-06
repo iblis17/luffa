@@ -1,9 +1,10 @@
 import json
 import re
 import traceback
+
 from bottle import default_app, get, post, request, HTTPError
 from urllib.request import Request, urlopen
-from utils import get_channel, get_settings, get_user, translate_user
+from .utils import get_channel, get_settings, get_user, translate_user
 
 @get('/')
 def index():
