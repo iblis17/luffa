@@ -24,6 +24,7 @@ We using a json file for our configuration shown as following::
  }
 
 Please create a config file and place it at one of path.
+
 + ``./luffa.conf``,
 + ``/usr/local/etc/luffa.json``
 + ``/etc/luffa.json``
