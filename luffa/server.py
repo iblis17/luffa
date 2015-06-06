@@ -4,11 +4,14 @@ import traceback
 
 from bottle import default_app, get, post, request, HTTPError
 from urllib.request import Request, urlopen
+
 from .utils import get_channel, get_settings, get_user, translate_user
+
 
 @get('/')
 def index():
     return 'It works!'
+
 
 @post('/broadcast/<team>')
 def broadcast(team):
@@ -53,5 +56,6 @@ def broadcast(team):
             return HTTPError(status=502)
 
     return ''
+
 
 application = default_app()
