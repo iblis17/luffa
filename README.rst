@@ -30,7 +30,7 @@ Please create a config file and place it at one of path.
 + ``/etc/luffa.json``
 + ``$HOME/.luffa.json``
 
-We will load it in this order; note that the first math win.
+We will load it in this order; note that the first match win.
 
 Run server
 -----------
